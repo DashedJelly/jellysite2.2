@@ -27,6 +27,12 @@ export function Navbar() {
             </Link>
 
             |
+          
+          <Link href="/buy" className={styles.link}>
+              Alpha Market
+            </Link>
+
+            |
 
             <Link href="https://thejellycollective.com/collections" className={styles.link}>
               Collections

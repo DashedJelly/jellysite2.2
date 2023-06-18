@@ -32,6 +32,12 @@ export function Navbar() {
 
            |
 
+           <Link href="https://app.flair.finance/public/claim/137/0xbf06138f8f67a0a8bfa23f6649b594c8c92238d7" className={styles.link}>
+              Alpha Rewards
+            </Link>
+
+           |
+
             <Link href="https://jellylab2.vercel.app/" className={styles.link}>
               Lab Jelly Rewardz
             </Link>

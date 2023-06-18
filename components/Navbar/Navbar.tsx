@@ -3,10 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./Navbar.module.css";
 
-/**
- * Navigation bar that shows up on all pages.
- * Rendered in _app.tsx file above the page content.
- */
+
 export function Navbar() {
   const address = useAddress();
 
@@ -16,34 +13,54 @@ export function Navbar() {
         <div className={styles.navLeft}>
           <Link href="/" className={`${styles.homeLink} ${styles.navLeft}`}>
             <Image
-              src="/logo.png"
+              src="/JClogo.png"
               width={48}
               height={48}
-              alt="NFT marketplace sample logo"
+              alt="Jelly Collective Logo"
             />
           </Link>
 
-          <div className={styles.navMiddle}>
-            <Link href="/buy" className={styles.link}>
-              Buy
+          |
+
+          <Link href="/sell" className={styles.link}>
+              List an Alpha
             </Link>
-            <Link href="/sell" className={styles.link}>
-              Sell
+
+            |
+
+            <Link href="https://thejellycollective.com/collections" className={styles.link}>
+              Collections
             </Link>
-          </div>
+
+           |
+
+            <Link href="https://jellylab2.vercel.app/" className={styles.link}>
+              Lab Jelly Rewardz
+            </Link>
+
+           |
+
+            <Link href="https://jelly-goon-z-capture-reward-system.vercel.app/stake" className={styles.link}>
+              GoonZ Lab Rewardz
+            </Link>
+
+            |
+
+          
         </div>
 
         <div className={styles.navRight}>
           <div className={styles.navConnect}>
             <ConnectWallet theme="dark" btnTitle="Connect Wallet" />
           </div>
+          <br/>
           {address && (
             <Link className={styles.link} href={`/profile/${address}`}>
               <Image
                 className={styles.profileImage}
-                src="/user-icon.png"
-                width={42}
-                height={42}
+                src="/gengif.gif"
+                width={56}
+                height={56}
                 alt="Profile"
               />
             </Link>

@@ -1,8 +1,8 @@
 .skeleton {
   width: 100%;
-  background: linear-gradient(to right, #333 0%, #555 50%, #333 100%);
+  background: linear-gradient(to right, #6f088fcb 0%rgba(16, 194, 226, 0.788)e2 50%, #333 100%);
   background-size: 400% 400%;
-  animation: pulse 1s ease-in-out infinite;
+  animation: pulse 5s ease-in-out infinite;
   min-height: 12px;
   max-height: 100%;
   padding: 2px;
@@ -11,9 +11,9 @@
 
 @keyframes pulse {
   0% {
-    background-position: 0% 0%;
+    background-position: 2% 0%;
   }
   100% {
-    background-position: -135% 0%;
+    background-position: -15% 0%;
   }
 }

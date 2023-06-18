@@ -27,8 +27,8 @@
 }
 
 .image {
-  border-radius: 16px;
-  width: 100% !important;
+  border-radius: 32px;
+  width: 35% !important;
   height: auto !important;
   background-color: rgba(255, 255, 255, 0.04);
 }

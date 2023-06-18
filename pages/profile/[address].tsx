@@ -62,7 +62,7 @@ export default function ProfilePage() {
         <div
           className={styles.profilePicture}
           style={{
-            background: `linear-gradient(90deg, ${randomColor3}, ${randomColor4})`,
+            background: `linear-gradient(35deg, ${randomColor3}, ${randomColor4})`,
           }}
         />
         <h1 className={styles.profileName}>

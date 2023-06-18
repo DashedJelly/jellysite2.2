@@ -14,11 +14,11 @@
 }
 
 .nav {
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
   display: flex;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 10px;
   align-items: center;
   justify-content: space-between;
   width: 98%;
@@ -43,7 +43,7 @@
 }
 
 .link {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(159, 235, 209, 0.6);
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.2px;
@@ -52,7 +52,7 @@
 }
 
 .link:hover {
-  color: rgba(255, 255, 255, 1);
+  color: rgb(30, 243, 144);
 }
 
 .homeLink:hover {
@@ -70,21 +70,21 @@
 
 .profileImage {
   margin-top: 6px;
-  transition: all 0.15s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 .profileImage:hover {
   cursor: pointer;
-  opacity: 0.8;
+  opacity: 0.42;
 }
 
 .homeLink {
-  font-size: 24px;
+  font-size: 48px;
   font-weight: 500;
 }
 
 .buttonLink:hover {
-  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 0 2px rgba(30, 197, 94, 0.5);
 }
 
 /* Sreens less than 720px */

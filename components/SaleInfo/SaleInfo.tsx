@@ -216,7 +216,7 @@ export default function SaleInfo({ nft }: Props) {
             }}
             onSuccess={(txResult) => {
               toast("Listed Successfully!", {
-                icon: "🥳",
+                icon: "🍞",
                 style: toastStyle,
                 position: "bottom-center",
               });
@@ -291,7 +291,7 @@ export default function SaleInfo({ nft }: Props) {
             }}
             onSuccess={(txResult) => {
               toast("Listed Successfully!", {
-                icon: "🥳",
+                icon: "🍞",
                 style: toastStyle,
                 position: "bottom-center",
               });

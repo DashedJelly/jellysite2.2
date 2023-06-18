@@ -6,6 +6,7 @@ import {
   useValidDirectListings,
   useValidEnglishAuctions,
   Web3Button,
+  NFTMetadata
 } from "@thirdweb-dev/react";
 import React, { useState } from "react";
 import Container from "../../../components/Container/Container";
@@ -144,56 +145,13 @@ export default function TokenPage({ nft, contractMetadata }: Props) {
                 )}
               </div>
 
-              <h3 className={styles.descriptionTitle}>History</h3>
-
-              <div className={styles.traitsContainer}>
-                {transferEvents?.map((event, index) => (
-                  <div
-                    key={event.transaction.transactionHash}
-                    className={styles.eventsContainer}
-                  >
-                    <div className={styles.eventContainer}>
-                      <p className={styles.traitName}>Event</p>
-                      <p className={styles.traitValue}>
-                        {
-                          // if last event in array, then it's a mint
-                          index === transferEvents.length - 1
-                            ? "Mint"
-                            : "Transfer"
-                        }
-                      </p>
-                    </div>
-
-                    <div className={styles.eventContainer}>
-                      <p className={styles.traitName}>From</p>
-                      <p className={styles.traitValue}>
-                        {event.data.from?.slice(0, 4)}...
-                        {event.data.from?.slice(-2)}
-                      </p>
-                    </div>
-
-                    <div className={styles.eventContainer}>
-                      <p className={styles.traitName}>To</p>
-                      <p className={styles.traitValue}>
-                        {event.data.to?.slice(0, 4)}...
-                        {event.data.to?.slice(-2)}
-                      </p>
-                    </div>
-
-                    <div className={styles.eventContainer}>
-                      <Link
-                        className={styles.txHashArrow}
-                        href={`${ETHERSCAN_URL}/tx/${event.transaction.transactionHash}`}
-                        target="_blank"
-                      >
-                        ↗
-                      </Link>
+              
                     </div>
                   </div>
-                ))}
+                
               </div>
-            </div>
-          </div>
+            
+          
 
           <div className={styles.listingContainer}>
             {contractMetadata && (
@@ -206,7 +164,7 @@ export default function TokenPage({ nft, contractMetadata }: Props) {
               </div>
             )}
             <h1 className={styles.title}>{nft.metadata.name}</h1>
-            <p className={styles.collectionName}>Token ID #{nft.metadata.id}</p>
+            <p className={styles.collectionName}>Alpha-Token ID #{nft.metadata.id}</p>
 
             <Link
               href={`/profile/${nft.owner}`}
@@ -216,7 +174,7 @@ export default function TokenPage({ nft, contractMetadata }: Props) {
               <div
                 className={styles.nftOwnerImage}
                 style={{
-                  background: `linear-gradient(90deg, ${randomColor1}, ${randomColor2})`,
+                  background: `linear-gradient(30deg, ${randomColor1}, ${randomColor2})`,
                 }}
               />
               <div className={styles.nftOwnerInfo}>
@@ -348,9 +306,10 @@ export default function TokenPage({ nft, contractMetadata }: Props) {
               </>
             )}
           </div>
-        </div>
+          
       </Container>
     </>
+    
   );
 }
 

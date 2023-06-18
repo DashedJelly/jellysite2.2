@@ -1,8 +1,9 @@
 html,
+
 body {
   padding: 0;
   margin: 0;
-  font-family: Inter, Helvetica, Arial, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 * {
@@ -15,19 +16,19 @@ html {
 
 body {
   color: #ffffff;
-  background: #191c1f;
-  --color-primary: #fada3f;
-  --color-secondary: #ff2136;
-  --color-tertiary: #0294fe;
+  background: #0f0b1d;
+  --color-primary: #3fdefa;
+  --color-secondary: #f07f8a;
+  --color-tertiary: #e287fd;
   --color-quaternary: #9b4dff;
-  --card-background: #252133;
-  --highlighted-background: #202326;
+  --card-background: #3a2780;
+  --highlighted-background: #324d68;
   font-weight: 400;
 }
 
 h1 {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1.5;
 }
 

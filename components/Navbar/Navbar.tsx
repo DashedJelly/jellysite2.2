@@ -38,7 +38,7 @@ export function Navbar() {
 
            |
 
-            <Link href="https://jellylab2.vercel.app/" className={styles.link}>
+            <Link href="http://www.thejellylab.online/" className={styles.link}>
               Lab Jelly Rewardz
             </Link>
 

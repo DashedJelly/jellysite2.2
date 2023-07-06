@@ -16,8 +16,8 @@ const Home: NextPage = () => {
             <div className={styles.heroBackgroundInner}>
               <Image
                 src="/background2.png"
-                width={1390}
-                height={1390}
+                width={1200}
+                height={1200}
                 alt="Background gradient from red to blue"
                 quality={100}
                 className={styles.gradient}

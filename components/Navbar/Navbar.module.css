@@ -88,8 +88,17 @@
 }
 
 /* Sreens less than 720px */
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   .navConnect {
     display: none !important;
   }
+
+  .navMiddle {
+    display: flex;
+    margin-left: 2px;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+  }
 }
+

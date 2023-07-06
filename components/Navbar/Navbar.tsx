@@ -20,16 +20,20 @@ export function Navbar() {
             />
           </Link>
 
-          |
+          
+<div></div>
+        
 
-          <Link href="/sell" className={styles.link}>
-              List an Alpha
-            </Link>
-
-            |
+            
 
             <Link href="https://thejellycollective.com/collections" className={styles.link}>
               Collections
+            </Link>
+
+           |
+
+           <Link href="https://app.flair.finance/public/claim/137/0xbf06138f8f67a0a8bfa23f6649b594c8c92238d7" className={styles.link}>
+              Alpha Rewards
             </Link>
 
            |
@@ -55,7 +59,7 @@ export function Navbar() {
           </div>
           <br/>
           {address && (
-            <Link className={styles.link} href={`/profile/${address}`}>
+            <Link className={styles.link} href="https://www.sushi.com/swap?fromChainId=137&fromCurrency=NATIVE&toChainId=137&toCurrency=0xbb71538BB1db7c2C8C5bD78D1b443e440b697d66">
               <Image
                 className={styles.profileImage}
                 src="/gengif.gif"

@@ -56,13 +56,10 @@ const Home: NextPage = () => {
               <div className={styles.heroCtaContainer}>
                 
                 <Link className={styles.heroCta} href="https://ipfs-2.thirdwebcdn.com/ipfs/QmRtKLLjdksJtcFhYd7mFx4yoAhgtfrcREAP3Dncsnzoqm?contract=0x83b8D9070bFD74eed1b70eB0539b45668cA31724&chain=%7B%22name%22%3A%22Polygon+Mainnet%22%2C%22chain%22%3A%22Polygon%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Fpolygon.rpc.thirdweb.com%2F5a9bc94b87f7cbbbfbbc234bf1e07f0adf5f3cf3012c9f26f9fc9820d64df93a%22%5D%2C%22nativeCurrency%22%3A%7B%22name%22%3A%22MATIC%22%2C%22symbol%22%3A%22MATIC%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22matic%22%2C%22chainId%22%3A137%2C%22testnet%22%3Afalse%2C%22slug%22%3A%22polygon%22%7D&theme=dark&primaryColor=purple">
-                  Alpha Jelly MINT
+                  Alpha Jelly Collection
                 </Link>
 
-                <Link className={styles.heroCta} href="https://ipfs-2.thirdwebcdn.com/ipfs/QmRtKLLjdksJtcFhYd7mFx4yoAhgtfrcREAP3Dncsnzoqm?contract=0x070f195b6aa5db85C9967B0f1A15d6Ca1dE2bdd1&chain=%7B%22name%22%3A%22Polygon+Mainnet%22%2C%22chain%22%3A%22Polygon%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Fpolygon.rpc.thirdweb.com%2F5a9bc94b87f7cbbbfbbc234bf1e07f0adf5f3cf3012c9f26f9fc9820d64df93a%22%5D%2C%22nativeCurrency%22%3A%7B%22name%22%3A%22MATIC%22%2C%22symbol%22%3A%22MATIC%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22matic%22%2C%22chainId%22%3A137%2C%22testnet%22%3Afalse%2C%22slug%22%3A%22polygon%22%7D&theme=dark&primaryColor=purple">
-                  Jelly3DropZ MINT
-                </Link>
-
+          
                 <Link className={styles.heroCta} href="https://the-jelly-market.vercel.app/">
                   $Jelly Market
                 </Link>
@@ -95,28 +92,32 @@ const Home: NextPage = () => {
 
                 <h1 className={styles.heroSubtitle2}>
                 <br/>
-                Our Alpha Collection Mint Contributes 25% of every mint to our Charity Partner : <b>PAWS</b>
+                Our Alpha Collection Mint Contributes 
+                <br/>25% of every mint to our Charity Partner : <b>PAWS</b>
                 <br/>
                 The Progressive Animal Welfair Society, 
                 <br/>
-                A Non Profit Rehabilitation project that Helps
+                A Non Profit Rehabilitation project 
+                <br/>that Helps Wild and domesticated animals
                 <br/>
-                Wild and domesticated animals get back to their homes aswell as,
+                get back to their homes 
+                <br/>aswell as,
                 <br/>
-                Helps Educated the Community on ways they can help share this world with our Furry Friends.
+                Helps Educated the Community 
+                <br/>on ways they can help share this world 
+                <br/>with our Furry Friends.
                 
                 <Image
               
               src="/pawsbanner2.jpeg"
-              width={1000}
-              height={250}
+              width={250}
+              height={75}
               alt=" marketplace"
               quality={100}
               className={styles.heroAsset}
               
             />
               
-      
               </h1>
               </div>
               <div className={styles.heroAssetFrame2}>
@@ -128,7 +129,7 @@ const Home: NextPage = () => {
             </div>
           </div>
           <footer>
-            Made Fresh by Dash
+            💜🍞Made Fresh by Dash🍞💜
           </footer>
           </div>
        

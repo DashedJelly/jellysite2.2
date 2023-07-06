@@ -11,9 +11,9 @@ function MyApp({ Component, pageProps }: AppProps) {
       {/* Progress bar when navigating between pages */}
       <NextNProgress
         color="var(--color-tertiary)"
-        startPosition={0.3}
+        startPosition={0.4}
         stopDelayMs={200}
-        height={3}
+        height={4}
         showOnShallow={true}
       />
 
